@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  height: 100vh;
+}
+.header{
+  color: #EEEEEE;
+  background-color: rgb(105, 62, 62);
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+h1.logo {
+  padding: 10px;
+  font-size: 20px;
+}
+.container {
+  display: flex;
+  height: 100%;
+}
+.aside {
+  width: 30%;
+  background: #eeeeee;
+  height: 100%;
+}
+h2.aside-item {
+  color: #CF0A0A;
+  text-align: center;
+  font-size: 15px;
+  margin: 20px auto;
+  padding: 15px;
+}
+h2.aside-item:hover {
+  background-color: #CF0A0A;
+  color: #EEEEEE;
+}
+.main {
+  height: 100%;
+  margin: auto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+input[type="text"], input[type="email"] {
+  max-width: 100%;
+  padding: 10px 15px;
+  margin: 20px auto;
+  border: 2px solid #CF0A0A;
+  font-size: 15px;
+}
+input[type="submit"] {
+  color: #eeeeee;
+  background: #CF0A0A;
+  border: none;
+  padding: 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  margin: 15px auto;
+}
