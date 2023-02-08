@@ -1,0 +1,59 @@
+*{
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+  position: relative;
+}
+
+.heading {
+  font-size: 25px;
+  background: #6f42c1;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+.form {
+  margin-top: 40px;
+}
+
+.post-container {
+  border: 1px solid #e6dbdb;
+  margin: 40px auto auto;
+  max-width: 90%;
+}
+
+.post-title, .post-description {
+  padding: 15px;
+  border-bottom: 1px solid gray;
+  width: 90%;
+  margin: auto;
+}
+
+.btns {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.no-posts {
+  text-align: center;
+  margin: 50px auto;
+  font-weight: bold;
+  color: #6f42c1;
+}
+
+.edit-post {
+  background-color: black;
+  opacity: 0.8;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  padding-top: 20px;
+}

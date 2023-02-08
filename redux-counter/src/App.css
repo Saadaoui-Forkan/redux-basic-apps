@@ -1,0 +1,31 @@
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.counter h1 {
+  border: 1px solid rgba(0,0,0,0.5);
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.counter p {
+  font-size: 35px;
+  font-weight: bold;
+  color: #872324;
+}
+
+.increment, .decrement {
+    background: #872324;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px 10px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
